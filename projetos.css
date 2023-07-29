@@ -1,0 +1,15 @@
+.projetos{
+    background-color: #023554;
+    color: #DECBB0;
+}
+
+.caixaProjeto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3%;
+}
+.caixaproj{
+    padding: 3%;
+}

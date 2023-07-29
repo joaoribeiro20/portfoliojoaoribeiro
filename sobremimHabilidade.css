@@ -1,0 +1,28 @@
+.SobremimHabilidades
+{
+    background-color: #DECBB0;
+}
+
+.sobremim{
+    color:  #023554;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%; 
+}
+.sobremimdiv{
+    padding: 2%;
+}
+
+.habilidade{
+    color:  #023554;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%; 
+    
+}
+.listaHabilidade{
+    text-align: center;
+    font-size: 18px;
+}

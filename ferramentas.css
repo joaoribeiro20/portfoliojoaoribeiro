@@ -1,0 +1,20 @@
+.ferramentas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #023554;
+    color: #DECBB0;
+    align-items: center;
+     padding: 7%;
+ }
+ .ferramenta{
+ padding: 2%;
+ margin-top: 3%;
+ }
+ .imgF{
+     margin-top: 3%;
+     width: 50px;
+     height: 50px;
+ }
