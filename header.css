@@ -88,3 +88,73 @@ h1{
       border-color: transparent;
     }
   }
+
+
+  @media (max-width:  600px){ 
+
+    .menu{ 
+      display: none;
+  }
+
+  .fotonomefrases{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  } 
+  .frases{
+    color:  #DECBB0;
+    text-align: center;
+  }
+
+  .nomefoto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:  #DECBB0;;
+ 
+
+}
+
+
+  .perfil{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    border-radius: 60%;
+    border: 5px solid #DECBB0;
+    -webkit-filter: drop-shadow(0px 0px 20px #000000); 
+    filter: drop-shadow(0px 0px 20px #000000);
+
+}
+
+
+.cargo{
+  font-size: 18px;
+  color:  #DECBB0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(13) infinite alternate,
+    blink 1000ms steps(13) infinite normal;
+  border-right: 5px solid black;
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+
+
+   }

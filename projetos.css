@@ -1,6 +1,6 @@
 .projetos{
-    background-color: #023554;
-    color: #DECBB0;
+    background-color: #DECBB0;
+    color: #023554;
 }
 
 .caixaProjeto{
@@ -12,4 +12,12 @@
 }
 .caixaproj{
     padding: 3%;
+}
+
+@media (max-width:  600px){ 
+    .caixaProjeto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }

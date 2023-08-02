@@ -37,3 +37,14 @@ footer{
 .txt{
     margin-top: 5%;
 }
+
+.imgRodape{
+    width: 200px;
+    height: 200px;
+}
+
+
+@media (max-width:  600px){ 
+
+
+}
