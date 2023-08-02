@@ -6,12 +6,16 @@
 .caixaProjeto{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     padding: 3%;
 }
 .caixaproj{
     padding: 3%;
+}
+
+a{
+    text-decoration: none;
 }
 
 @media (max-width:  600px){ 
