@@ -1,6 +1,7 @@
 .projetos{
     background-color: #DECBB0;
     color: #023554;
+    text-align: center;
 }
 
 .caixaProjeto{
@@ -16,6 +17,16 @@
 
 a{
     text-decoration: none;
+}
+
+.tituloPro{
+    font-size: 30px;
+    padding: 3%;
+}
+.imgprojeto{
+    width: 200px;
+    height: 100px;
+    border-radius: 8%;
 }
 
 @media (max-width:  600px){ 
