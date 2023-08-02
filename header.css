@@ -64,7 +64,7 @@ h1{
 
 }
 .cargo{
-    font-size: 22px;
+    font-size: 20px;
     color:  #DECBB0;
     white-space: nowrap;
     overflow: hidden;
@@ -98,8 +98,10 @@ h1{
 
   .fotonomefrases{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
   } 
   .frases{
     color:  #DECBB0;
