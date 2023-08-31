@@ -6,14 +6,10 @@
 
 .caixaProjeto{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    padding: 3%;
+    
+    
 }
-.caixaproj{
-    padding: 3%;
-}
+
 
 a{
     text-decoration: none;
@@ -27,12 +23,12 @@ a{
     width: 200px;
     height: 100px;
     border-radius: 8%;
+    
 }
 
 @media (max-width:  600px){ 
     .caixaProjeto{
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
     }
 }
