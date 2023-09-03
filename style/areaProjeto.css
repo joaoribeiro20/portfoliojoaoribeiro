@@ -1,0 +1,66 @@
+.projetos{
+    background-color: #DECBB0;
+    color: #023554;
+    text-align: center;
+    padding: 1%;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blocoMaior{
+padding: 5%;
+}
+.blocoNomesProjetos{
+    
+    border: #023554 solid 1px;
+    border-top: 0px;
+    border-radius: 5px; 
+    border-top-left-radius:0px;
+    border-top-right-radius: 0px;
+    padding: 2px;
+    
+}
+.nomesProjetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.blocoReadme{
+    margin-top: 2vh;
+    border: #023554 solid;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.753);
+  
+}
+.readme{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 0%;
+    font-size: 70%;
+    
+}
+.blocoProjeto{
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: #023554;
+}
+.txt{
+/* transition: 50s; */
+}
+.nomeRepositorio{
+    border: #023554 solid 1px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+   /*  border-radius: 5px; */
+    padding: 5px;
+   display: flex;
+   background-color: #bfaf99a5;
+}
+

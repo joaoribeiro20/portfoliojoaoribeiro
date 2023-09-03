@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7a78582861.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="sobremimHabilidade.css">
-    <link rel="stylesheet" href="ferramentas.css">
-    <link rel="stylesheet" href="certificados.css">
-    <link rel="stylesheet" href="projetos.css">
-    <link rel="stylesheet" href="rodape.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/sobremimHabilidade.css">
+    <link rel="stylesheet" href="style/ferramentas.css">
+    <link rel="stylesheet" href="style/certificados.css">
+    <link rel="stylesheet" href="style/areaProjeto.css">
+    <link rel="stylesheet" href="style/rodape.css">
+
     <title>João Ribeiro - Portfolio</title>
 </head>
-
+<style></style>
 
 <body>
     <header >
@@ -40,8 +41,7 @@
     <div class="nomefoto">
             <h1>João Ribeiro</h1>
             <h3 class="cargo"><i class="fa-solid fa-terminal"></i>Software Developer Back-end</h3>
-            <img class="perfil" src="fotos/IMG-20230205-WA0017.jpg" alt="">
-
+            <img class="perfil" src="fotos/fotoPerfilLinkdin.jpg"">
     </div>
 
     <div class="frases">
@@ -143,15 +143,60 @@
         <!---------------------------------------------------------------------->
         <section id="ferramen" class="ferramentas">
             <h2 class="tituloPro">Minha Caixa de Ferramentas</h2>
-            <P>Aqui apresento brevemente as minhas principais Hard Skills (que mais utilizo ou que estou aprendendo)</P>      
-            <article class="ff">
-                <div>
+            <P>Aqui apresento brevemente as minhas principais Hard Skills (que mais utilizo ou que estou aprendendo)</P>    
+
+            <article id="ff" class="ff">
+
+                <div id="f1">
+                    <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                    <h3>Conhecimentos e Aplicações<br></h3>
+                     <p><Strong>Java:</Strong> brOOP(Object-Oriented Programming) - SGBD - <br>Collections - Servlet - JSP - JPA - Intellij - Eclipse</p>
+                </div>
+                <div id="f2">
+                    <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <h3>Conhecimentos e Aplicações<br></h3>
+                     <p><Strong>Java:</Strong> brOOP(Object-Oriented Programming) - SGBD - <br>Collections - Servlet - JSP - JPA - Intellij - Eclipse</p>
+                </div>
+                <div id="f3">
+                    <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                    <h3>Conhecimentos e Aplicações<br></h3>
+                     <p><Strong>Java:</Strong> brOOP(Object-Oriented Programming) - SGBD - <br>Collections - Servlet - JSP - JPA - Intellij - Eclipse</p>
+                </div>
+                <div id="f4">
+
+                </div>
+                <div id="f5">
+                    
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!--      <div>
                     <h2 class="ferramenta">Linguagem de Programação</h2>
                     <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
                     <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-                    <!--<img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                      <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                     <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />--->
+                     <img class="imgF" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                      
                      <h3>Conhecimentos e Aplicações<br></h3>
                      <p><br><Strong>Java:</Strong> OOP(Object-Oriented Programming) - SGBD - Collections - Servlet - JSP - JPA - Intellij - Eclipse<br> 
@@ -180,7 +225,7 @@
                      <h3>Conhecimentos e Aplicações<br></h3>
                      <p><br>Agile Culture: <strong>Scrum end Kanban</strong> - GIT & GitHub - Apache Maven - CI/CD </p>
                  </div>
-                </div>
+                </div> -->
             </article>
         </section>
         <!---------------------------------------------------------------------->
@@ -193,9 +238,8 @@
 
         <!---------------------------------------------------------------------->
         <!---------------------------------------------------------------------->
-        <section id="proj" class="projetos">
-            <h2 class="tituloPro"> Projetos </h2>
-            <article class="caixaProjeto">
+  
+            <!-- <article class="caixaProjeto">
                 
                 <div id="projeto1" class="caixaproj">
                     <h2>Artigos - Introdução <br>ao microcontrolador PIC</h2> <br>
@@ -203,10 +247,10 @@
                     <h3><br>Descrição do Projeto<br></h3>
                       <p id="texto">
                          Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate 
-                        <br> pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, 
-                        <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  
-                        <br> desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. 
-                        <br> Link para eles são: 
+                        pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, 
+                         nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  
+                        desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. 
+                         Link para eles são: 
                         <a href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/"> 1/3  </a>-
                         <a href="https://blog.eletrogate.com/primeiros-passos-com-mikroc-parte-2/"> 2/3 
                         </a>-<a href="https://blog.eletrogate.com/como-gravar-codigo-no-pic-parte-3/"> 3/3 </a><br>
@@ -225,9 +269,79 @@
                     <h2>Em desenvolvimento 3</h2>
                     <img class="imgprojeto" src="fotos/develop-web.gif" alt="" >
                     <p>descrição projeto</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe impedit architecto tempore consectetur, molestiae minus magnam autem nihil facilis voluptatum tenetur ea? Quis minus sequi delectus. Quia laboriosam eos molestiae.</p>
                 </div>
-                </div>  
-            </article>
+                <div id="projeto3" class="caixaproj">
+                    <h2>Em desenvolvimento 3</h2>
+                    <img class="imgprojeto" src="fotos/develop-web.gif" alt="" >
+                    <p>descrição projeto</p>
+                </div>
+            </article> -->
+            <section id="proj" class="projetos">
+                <div><h2 class="tituloPro"> Projetos </h2></div>
+            
+            
+            <div class="blocoMaior">
+                <!-- cabeçario da parte dos nomes dos projetos  -->
+                <div class="nomeRepositorio">
+                    <h3><i class="fa-regular fa-circle-user"></i> joaoribeiro20</h3>
+                </div>
+                <!-- Nomes dos projetos com função de click -->
+                <div class="blocoNomesProjetos">
+                    <div class="nomesProjetos">
+                        <!-- nomes dos projetos -->
+                        <div>
+                            <a href=""><p><i class="fa-solid fa-folder"></i> Artigos - Introdução ao microcontrolador PIC</p></a>
+                        </div>
+                        <!-- data do prjeotos -->
+                       <div><p>14/082022</p></div>
+                    </div>
+                    <!-- ------------------------------------------------------------- -->
+                    <div class="nomesProjetos">
+                        <div>
+                            <a href=""><p><i class="fa-solid fa-folder"></i> Projeto teste</p></a>
+                        </div>
+                       <div><p>29/10/2022</p></div>
+                    </div>
+                      <!-- ------------------------------------------------------------- -->
+                    <div class="nomesProjetos">
+                        <div>
+                            <a href=""><p><i class="fa-solid fa-folder"></i> Projeto teste</p></a>
+                        </div>
+                       <div><p>00/00/0000</p></div>
+                    </div>
+                </div>
+
+                <!-- Area destinada para exibir a descrição e etc sobre os projetos dentro do readme -->
+                <div class="blocoReadme">
+                    <!-- campo fixo padrao github -->
+                    <div class="readme">
+                        <div>  <h2><i class="fa-solid fa-list"></i> README.md</h2></div>
+                        <div><i class="fa-solid fa-pen fa-lg"></i></div>
+                    </div><hr color="">
+                    <!-- ------------------------------------------------------------------------------ -->
+                    <!-- Area de exibição dos projetos - parte dinamica -->
+                    <div class="blocoProjeto">
+                    <!-- titulo => corpo => imagems e links -->
+                    <h2 >Introdução <br>ao microcontrolador PIC<hr color=""></h2>
+                    <div class="txt">     
+                    <h3><br>Descrição do Projeto<br></h3>
+                      <p id="texto">
+                         Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate 
+                        pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, 
+                         nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  
+                        desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. 
+                         Link para eles são: 
+                        <a href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/"> 1/3  </a>-
+                        <a href="https://blog.eletrogate.com/primeiros-passos-com-mikroc-parte-2/"> 2/3 
+                        </a>-<a href="https://blog.eletrogate.com/como-gravar-codigo-no-pic-parte-3/"> 3/3 </a><br>
+                         Quero convidar você para visitar meus outros artigos que possuo no mesmo blog
+                        </p> 
+                        <img class="imgprojeto" src="fotos/pic.webp" alt="" width="450px" >
+                        </div>
+                    </div><!-- div fim da parte dinamica de exibição dos projetos -->
+                </div> 
+            </div><!-- div final do bloco maior -->
         </section>
     </main>
     <!---------------------------------------------------------------------->
@@ -278,6 +392,6 @@
 
     </footer>
 
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>

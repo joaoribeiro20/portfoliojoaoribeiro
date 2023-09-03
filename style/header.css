@@ -3,6 +3,9 @@
     margin: 0%;
     font-family: monospace;
 }
+body{
+  overflow-x: hidden;
+}
 
 header{
     background-color: #023554;
@@ -59,8 +62,8 @@ h1{
     margin-top: 20%;
     border-radius: 20%;
     border: 5px solid #DECBB0;
-    -webkit-filter: drop-shadow(0px 0px 20px #000000); 
-    filter: drop-shadow(0px 0px 20px #000000);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.753);
+
 
 }
 .cargo{
