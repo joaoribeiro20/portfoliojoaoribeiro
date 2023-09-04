@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+.projetos{
+    background-color: #DECBB0;
+    color: #023554;
+    text-align: center;
+}
+
+.caixaProjeto{
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    border-radius: 30%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.tituloPro{
+    font-size: 30px;
+    padding: 3%;
+}
+.imgprojeto{
+    width: 200px;
+    height: 100px;
+    border-radius: 8%;
+    
+}
+.texto{
+    display: none;
+}
+
+
+@media (max-width:  600px){ 
+    .caixaProjeto{
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,50 @@
+footer{
+     padding: 5%;
+    color:  #DECBB0;  
+    background-color: rgb(0, 0, 0);
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.rede{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.contato{
+    text-decoration: none;
+    color:  #DECBB0;  
+    font-size: 15px;
+}
+
+.redesocial{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+
+
+.feedback{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 3%;
+}
+.txt{
+    margin-top: 5%;
+}
+
+.imgRodape{
+    width: 200px;
+    height: 200px;
+}
+
+
+@media (max-width:  600px){ 
+
+
+}
