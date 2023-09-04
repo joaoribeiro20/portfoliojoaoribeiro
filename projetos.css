@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .projetos{
     background-color: #DECBB0;
     color: #023554;
@@ -6,8 +9,9 @@
 
 .caixaProjeto{
     display: flex;
-    
-    
+    justify-content: space-around;
+    padding: 15%;
+    border-radius: 30%;
 }
 
 
@@ -24,6 +28,9 @@ a{
     height: 100px;
     border-radius: 8%;
     
+}
+.texto{
+    display: none;
 }
 
 @media (max-width:  600px){ 
