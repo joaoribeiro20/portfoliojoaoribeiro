@@ -1,8 +1,6 @@
 const div = document.getElementById('ff')
 
 let anima = null 
-let anima2 = null 
-let anima3 = null 
 let telaMax
 let pos = 0
 
