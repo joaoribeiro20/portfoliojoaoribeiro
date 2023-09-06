@@ -71,7 +71,8 @@
        display: none;
     }
     .sobremimdivMedia{
-        padding: 1%;
+        padding: 5px;
+        margin: 20%;
         font-size: 15px;
         display: flex;
         flex-wrap: wrap;
