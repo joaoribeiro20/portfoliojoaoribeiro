@@ -50,8 +50,10 @@ function init(){
 if(opcoes <= img.length){
 titulo = document.createElement('h2')
 info1 = document.createElement('p')
+
 info2 = document.createElement('p')
 div = document.createElement('div')
+div.setAttribute('class', 'divFerramenta')
 titulos()
 
 for(i;i<opcoes;i++){
@@ -65,8 +67,7 @@ div.appendChild(elementoImg[i])
 div.appendChild(info1)
 div.appendChild(info2)
 area.appendChild(div)
-div.style.padding = '3vh'
-div.style.height = '50vh'
+
 if (!intervalID) {
     intervalID = setInterval(myCallback, 1000);
   } 
