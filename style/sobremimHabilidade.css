@@ -1,6 +1,8 @@
 .SobremimHabilidades
 {
     background-color: #DECBB0;
+    padding: 8%; 
+    
 }
 
 .sobremim{
@@ -13,6 +15,16 @@
 .sobremimdiv{
     padding: 1%;
     font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.ladoTxt{
+    width: 450px;
+    
+}
+.sobremimdivMedia{
+    display: none;
 }
 
 .habilidade{
@@ -20,7 +32,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2%; 
+    padding: 5%; 
    
     
 }
@@ -41,7 +53,7 @@
 }
 
 
-@media (max-width:  600px){ 
+@media (max-width:  800px){ 
 
     .sobremim{
         color:  #023554;
@@ -51,4 +63,22 @@
         padding: 5%; 
         flex-wrap: wrap;
     }
+    .sobremimdiv{
+       display: none;
+    }
+    .sobremimdivMedia{
+        padding: 1%;
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .sobremimdivMediaq{
+        padding: 1%;
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
 }

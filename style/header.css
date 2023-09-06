@@ -4,7 +4,7 @@
     font-family: monospace;
 }
 body{
-  overflow-x: hidden;
+   overflow-x: hidden; 
 }
 
 header{
@@ -109,7 +109,7 @@ h1{
 
 
 
-  @media (max-width:  600px){ 
+  @media (max-width:  800px){ 
     
   .menu{ 
       position: relative;

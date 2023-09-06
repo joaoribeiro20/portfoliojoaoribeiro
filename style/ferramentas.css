@@ -7,17 +7,20 @@
     background-color: #023554;
     color: #DECBB0;
     align-items: center;
-    padding: 3%;
+    padding: 6%;
+    
      
  }
  .ferramenta{
-  margin-top: 4%;
+  margin-top: 0%;
+  
  
  }
  .imgF{
      margin-top: 3%;
      width: 100px;
      height: 100px;
+     padding: 3vh;
  }
  .imgFp{
     color: #DECBB0;
@@ -31,3 +34,5 @@
     justify-content: center;
     gap: 15vh
  }
+ 
+
