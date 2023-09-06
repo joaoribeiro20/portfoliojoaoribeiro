@@ -48,7 +48,7 @@ let info2
 
 function init(){
 if(opcoes <= img.length){
-titulo = document.createElement('h3')
+titulo = document.createElement('h2')
 info1 = document.createElement('p')
 info2 = document.createElement('p')
 div = document.createElement('div')
