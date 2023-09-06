@@ -66,7 +66,7 @@ div.appendChild(info1)
 div.appendChild(info2)
 area.appendChild(div)
 div.style.padding = '10vh'
-div.style.height = '50vh'
+div.style.height = '75vh'
 if (!intervalID) {
     intervalID = setInterval(myCallback, 1000);
   } 
