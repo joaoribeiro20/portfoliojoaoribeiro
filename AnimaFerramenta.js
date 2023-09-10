@@ -54,15 +54,18 @@ elementoImg[i].setAttribute('src', img[i])
 elementoImg[i].setAttribute('class', 'imgF')
 div.appendChild(elementoImg[i])
 }
+
 div.appendChild(info1)
 div.appendChild(info2)
 area.appendChild(div)
 
 if (!intervalID) {
     intervalID = setInterval(myCallback, 3000);
+   
   } 
 }else{   
     console.log("acabou as imagens ")
+   
  }
  
 }
@@ -95,12 +98,14 @@ function titulos(){
 function myCallback(){
     if(opcoes == img.length){
         console.log("função chamada")
+     
         opcoes = 4
         i = 0
         area.removeChild(div)
         init()
     }else{
         console.log("função chamada")
+ 
         area.removeChild(div)
         if(opcoes == 8){
             opcoes = opcoes + 3
@@ -108,7 +113,7 @@ function myCallback(){
             opcoes = opcoes + 4
         }
         
-        
+       
         init()
     }
     

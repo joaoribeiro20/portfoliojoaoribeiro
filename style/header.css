@@ -1,16 +1,4 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    font-family: monospace;
-}
-body{
-   overflow-x: hidden; 
-}
 
-header{
-    background-color: #023554;
-    color:  #DECBB0;
-}
 
 .menu{ 
     background-color: #DECBB0;
