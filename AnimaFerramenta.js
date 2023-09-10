@@ -1,10 +1,13 @@
 let area = document.getElementById('ff')
 let divCentro = document.getElementById('ferramen')
-let img1
 let intervalID 
 let i = 0
 
-
+let div
+let opcoes = 4
+let titulo
+let info1
+let info2
 
 const img = [
 "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
@@ -30,46 +33,33 @@ const img = [
 
 
 ]
+let img1
 const elementoImg = [img1]
-
-let div
-let opcoes = 4
-let titulo
-let info1
-let info2
-
-
-
-
-
-
-
-
 
 function init(){
 if(opcoes <= img.length){
+/* CRIANDO OS ELEMENTOS */
 titulo = document.createElement('h2')
 info1 = document.createElement('p')
-
 info2 = document.createElement('p')
 div = document.createElement('div')
+/* atribundo uma class a div que vai conter as imagens */
 div.setAttribute('class', 'divFerramenta')
 titulos()
 
+/* criando as imagens e adicionando as imagens dentro da div */
 for(i;i<opcoes;i++){
 elementoImg[i] = document.createElement('img')
 elementoImg[i].setAttribute('src', img[i])
 elementoImg[i].setAttribute('class', 'imgF')
-
 div.appendChild(elementoImg[i])
-
 }
 div.appendChild(info1)
 div.appendChild(info2)
 area.appendChild(div)
 
 if (!intervalID) {
-    intervalID = setInterval(myCallback, 1000);
+    intervalID = setInterval(myCallback, 3000);
   } 
 }else{   
     console.log("acabou as imagens ")
@@ -85,21 +75,19 @@ function titulos(){
         div.appendChild(titulo)
     }else if(opcoes == 8){
         titulo.innerHTML = 'fermeworks'
-        info1.innerHTML = 'MVC - Protocolo HTTP, DNS, TCP/IP'
-        info2.innerHTML = 'JUnit - .NET CORE - ASP.NET'
+        info1.innerHTML = 'MVC - Protocolo HTTP - DNS - TCP/IP'
+        info2.innerHTML = 'JUnit - .NET CORE - Node.JS - React - Angular'
         
         div.appendChild(titulo)
     }
     else if(opcoes == 11){
         titulo.innerHTML = 'banco de dados'
-        info1.innerHTML = 'MVC - Protocolo HTTP, DNS, TCP/IP'
-        info2.innerHTML = 'JUnit - .NET CORE - ASP.NET'
+        info1.innerHTML = 'SQL - NoSQL'
         div.appendChild(titulo)
     }
     else if(opcoes == 15){
         titulo.innerHTML = 'DevOps'
-        info1.innerHTML = 'MVC - Protocolo HTTP, DNS, TCP/IP'
-        info2.innerHTML = 'JUnit - .NET CORE - ASP.NET'
+        info1.innerHTML = 'KanBan - Git - GitHub - Injeção de Dependencias'
         div.appendChild(titulo)
     }
 }

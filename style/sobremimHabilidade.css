@@ -1,41 +1,40 @@
-.SobremimHabilidades
+.SessaoSobremimHabilidades
 {
     background-color: #DECBB0;
-    padding: 8%; 
+    padding: 5%;
     
 }
 
-.sobremim{
-    color:  #023554;
+/* 
+
+ESTILIZAÇÃO PARA AREA DO SOBRE MIM 
+
+*/
+.areaPrincipal{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 5%; 
-}
-.sobremimdiv{
+   text-align: right;
+   align-items: center;
     padding: 3%;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.ladoTxt{
-    width: 450px;
-    
-}
-.sobremimdivMedia{
-    display: none;
-}
-.sobremimdivMediaq{
-    display: none;
+ 
 }
 
+.areaDetalhe{
+    display: flex;
+    text-align: left;
+    justify-content: center; 
+    align-items: center;
+}
+/* 
+
+ESTILIZAÇÃO PARA AREA DE HABILIDADE
+
+*/
 .habilidade{
     color:  #023554;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 3%; 
+    padding-top: 8%;
     
    
     
@@ -59,31 +58,22 @@
 
 @media (max-width:  800px){ 
 
-    .sobremim{
-        color:  #023554;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5%; 
-        flex-wrap: wrap;
+    .areaPrincipal{
+    display: flex;
+    padding-top: 8%;
+    text-align: center;
+   
     }
-    .sobremimdiv{
-       display: none;
+    .gifPrimeiro{
+     height: 130px;
     }
-    .sobremimdivMedia{
-        padding: 5px;
-        margin: 20%;
-        font-size: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+
+    .areaDetalhe{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-top: 5%;
+    text-align: center;
     }
-    .sobremimdivMediaq{
-        padding: 5%;
-        font-size: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    
+   
+
 }

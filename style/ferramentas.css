@@ -7,41 +7,28 @@
     background-color: #023554;
     color: #DECBB0;
     align-items: center;
-    padding: 6%;
-    
-     
+    padding: 5%;
  }
- .ferramenta{
-  margin-top: 0%;
-  
- 
+
+ /* area destina */
+ .ff{
+    padding: 10%;
  }
+
  .imgF{
      margin-top: 3%;
      width: 100px;
      height: 100px;
      padding: 3vh;
  }
- .imgFp{
-    color: #DECBB0;
-    margin-top: 3%;
-     width: 100px;
-     height: 100px;
- }
- .ff{
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    gap: 15vh
- }
 
+ 
  .divFerramenta{
     height: 30vh;
-
  }
  
 
- @media (max-width:  600px){ 
+ @media (max-width:  850px){ 
     .imgF{
         margin-top: 3%;
         width: 50px;
