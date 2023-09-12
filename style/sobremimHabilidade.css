@@ -1,6 +1,7 @@
 .SessaoSobremimHabilidades
 {
     background-color: #DECBB0;
+    text-align: center;
     padding: 5%;
     
 }
@@ -12,7 +13,7 @@ ESTILIZAÇÃO PARA AREA DO SOBRE MIM
 */
 .areaPrincipal{
     display: flex;
-   text-align: right;
+   text-align: left;
    align-items: center;
     padding: 3%;
  
@@ -20,7 +21,7 @@ ESTILIZAÇÃO PARA AREA DO SOBRE MIM
 
 .areaDetalhe{
     display: flex;
-    text-align: left;
+    text-align: right;
     justify-content: center; 
     align-items: center;
 }
