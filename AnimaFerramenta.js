@@ -73,13 +73,14 @@ if (!intervalID) {
 function titulos(){
     if(opcoes == 4){
         titulo.innerHTML = 'Lnguagens de prgramação'
-        info1.innerHTML = `OOP(Object-Oriented Programming) - SGBD - Collections - Servlet  `
-        info2.innerHTML = 'JSP - JPA - Intellij - Eclipse - Visual Studio - VS CODE '
+        info1.innerHTML = `OOP(Object-Oriented Programming) - SGBD - Collections - Servlet <br>JSP - JPA - Intellij - Eclipse - Visual Studio - VS CODE  `
         div.appendChild(titulo)
     }else if(opcoes == 8){
         titulo.innerHTML = 'fermeworks'
+
         info1.innerHTML = 'MVC - Protocolo HTTP - DNS - TCP/IP <br> JUnit - .NET CORE - Node.JS - React - Angular'
         /* info2.innerHTML = 'JUnit - .NET CORE - Node.JS - React - Angular' */
+
         
         div.appendChild(titulo)
     }

@@ -73,7 +73,10 @@ function criar(idProjeto){
 function projeto1(){
     //area para criar os itens
 
-    elementoTitulo.innerText = 'Introdução ao microcontrolador PIC'
+    elementoTitulo.innerHTML = `
+    Introdução ao microcontrolador PIC
+    <hr color="#023554">
+    `
     divTitulos.appendChild(elementoTitulo)
 
     texto.innerHTML = `Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:` 

@@ -2,7 +2,7 @@
 {
     background-color: #DECBB0;
     padding: 2%;
-    
+
 }
 
 /* 
@@ -10,59 +10,28 @@
 ESTILIZAÇÃO PARA AREA DO SOBRE MIM 
 
 */
-.sobremim{
-    margin-top: 1%;
-}
+
 .inicio{
-    padding: 15%;
+    padding: 5%;
     margin-top: 1%;
 }
 .areaPrincipal{
-    display: flex;
-   text-align: right;
-   align-items: center;
-    padding: 1%;
-    margin-top: 10%;
- 
+   text-align: left;
+    padding: 3%;
 }
 
 .areaDetalhe{
-    display: flex;
-    text-align: left;
-    justify-content: center; 
-    align-items: center;
+    text-align: right; 
+    padding: 5%; 
 }
 
-/* .item1 { grid-area: txt1; }
-.item2 { grid-area: txt2; }
-.item3 { grid-area: txt3; text-align: right;}
-.item4 { grid-area: txt4; }
-.item5 { grid-area: txt5; }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'txt1 txt1 txt1 txt1'
-    'txt2 txt3 txt3 txt3'
-    'txt2 txt3 txt3 txt3'
-    'txt5 txt5 txt4 txt4'
 
-    ;
-  gap: 50px;
-  
-  padding: 100px;
-}
 
-.grid-container > div {
-
-  
-  padding: 20px 0;
-
-}
 .gifPrimeiro{
-
-}
- */
+    height: 200px;
+    
+   }
 
 /* 
 
@@ -75,7 +44,7 @@ ESTILIZAÇÃO PARA AREA DE HABILIDADE
     flex-direction: row;
     justify-content: space-around;
     padding-top: 8%;
-    margin-top: 15%;
+    
     
    
     
@@ -102,18 +71,18 @@ ESTILIZAÇÃO PARA AREA DE HABILIDADE
     .areaPrincipal{
     display: flex;
     padding-top: 8%;
-    text-align: center;
+    text-align: right;
    
     }
     .gifPrimeiro{
-     height: 130px;
+     height: 160px;
     }
 
     .areaDetalhe{
     display: flex;
     flex-wrap: wrap-reverse;
     padding-top: 5%;
-    text-align: center;
+    text-align: left;
     }
    
 
