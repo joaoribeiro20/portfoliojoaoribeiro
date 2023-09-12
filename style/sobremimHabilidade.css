@@ -12,19 +12,19 @@ ESTILIZAÇÃO PARA AREA DO SOBRE MIM
 
 */
 .areaPrincipal{
-    display: flex;
+
    text-align: left;
-   align-items: center;
     padding: 3%;
- 
 }
 
 .areaDetalhe{
-    display: flex;
-    text-align: right;
-    justify-content: center; 
-    align-items: center;
+    text-align: right; 
+    padding: 3%; 
 }
+.gifPrimeiro{
+    height: 200px;
+    
+   }
 /* 
 
 ESTILIZAÇÃO PARA AREA DE HABILIDADE
@@ -62,18 +62,18 @@ ESTILIZAÇÃO PARA AREA DE HABILIDADE
     .areaPrincipal{
     display: flex;
     padding-top: 8%;
-    text-align: center;
+    text-align: right;
    
     }
     .gifPrimeiro{
-     height: 130px;
+     height: 160px;
     }
 
     .areaDetalhe{
     display: flex;
     flex-wrap: wrap-reverse;
     padding-top: 5%;
-    text-align: center;
+    text-align: left;
     }
    
 
