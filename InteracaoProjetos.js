@@ -76,7 +76,7 @@ function projeto1(){
     elementoTitulo.innerText = 'Introdução ao microcontrolador PIC'
     divTitulos.appendChild(elementoTitulo)
 
-    texto.innerText = `Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:` 
+    texto.innerHTML = `Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:` 
     divTextos.appendChild(texto)
 
     imgPorjetos1.setAttribute('src', 'fotos/pic.webp')

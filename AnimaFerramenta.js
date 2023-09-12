@@ -78,8 +78,8 @@ function titulos(){
         div.appendChild(titulo)
     }else if(opcoes == 8){
         titulo.innerHTML = 'fermeworks'
-        info1.innerHTML = 'MVC - Protocolo HTTP - DNS - TCP/IP'
-        info2.innerHTML = 'JUnit - .NET CORE - Node.JS - React - Angular'
+        info1.innerHTML = 'MVC - Protocolo HTTP - DNS - TCP/IP <br> JUnit - .NET CORE - Node.JS - React - Angular'
+        /* info2.innerHTML = 'JUnit - .NET CORE - Node.JS - React - Angular' */
         
         div.appendChild(titulo)
     }

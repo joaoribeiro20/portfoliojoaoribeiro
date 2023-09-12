@@ -1,7 +1,7 @@
 .SessaoSobremimHabilidades
 {
     background-color: #DECBB0;
-    padding: 5%;
+    padding: 2%;
     
 }
 
@@ -10,11 +10,19 @@
 ESTILIZAÇÃO PARA AREA DO SOBRE MIM 
 
 */
+.sobremim{
+    margin-top: 1%;
+}
+.inicio{
+    padding: 15%;
+    margin-top: 1%;
+}
 .areaPrincipal{
     display: flex;
    text-align: right;
    align-items: center;
-    padding: 3%;
+    padding: 1%;
+    margin-top: 10%;
  
 }
 
@@ -24,6 +32,38 @@ ESTILIZAÇÃO PARA AREA DO SOBRE MIM
     justify-content: center; 
     align-items: center;
 }
+
+/* .item1 { grid-area: txt1; }
+.item2 { grid-area: txt2; }
+.item3 { grid-area: txt3; text-align: right;}
+.item4 { grid-area: txt4; }
+.item5 { grid-area: txt5; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'txt1 txt1 txt1 txt1'
+    'txt2 txt3 txt3 txt3'
+    'txt2 txt3 txt3 txt3'
+    'txt5 txt5 txt4 txt4'
+
+    ;
+  gap: 50px;
+  
+  padding: 100px;
+}
+
+.grid-container > div {
+
+  
+  padding: 20px 0;
+
+}
+.gifPrimeiro{
+
+}
+ */
+
 /* 
 
 ESTILIZAÇÃO PARA AREA DE HABILIDADE
@@ -35,6 +75,7 @@ ESTILIZAÇÃO PARA AREA DE HABILIDADE
     flex-direction: row;
     justify-content: space-around;
     padding-top: 8%;
+    margin-top: 15%;
     
    
     
