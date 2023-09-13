@@ -94,6 +94,16 @@ function projeto1(){
     <br>
     <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
     <br>
+    <h3>Introdução ao microcontrolador PIC &#x1F4E0</h3>
+    <hr color="#023554">
+    <br>
+    <p class="textoProjeto">Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+    <br>
     
    
   

@@ -19,7 +19,18 @@ padding: 5%;
     border-top-left-radius:0px;
     border-top-right-radius: 0px;
     padding: 2px;
-    
+    overflow: auto;
+    height: 100px;
+}
+::-webkit-scrollbar{
+    background-color: #023554;
+    width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+background-color: bisque;
+height: 1px;
+
 }
 .nomesProjetos{
     display: flex;
