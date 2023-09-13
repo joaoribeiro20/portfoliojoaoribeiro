@@ -73,11 +73,72 @@ function criar(idProjeto){
 function projeto1(){
     //area para criar os itens
 
-    elementoTitulo.innerHTML = `
+    elementoTitulo.innerHTML = 
+    `
+    <h1>Artigos IoT</h1>
+    <hr color="#023554">
+    <br>
+    <p>Durante meu curso de eletronica pude ter a oportunidade em desenvolver uma material didatico, voltado a introdução ao microcontrolador PIC, 
+    sempre senti dificuldade de encontrar materiais bons e didatico sobre tal tema, portanto decidir desenvolver o meu prorio material.
+    <br>
+    Em parceria com a loja eletrogate puder ter exedo nesse meu desejo. 
+    </p>
+    <br>
+    <h2>Introdução ao microcontrolador PIC</h2>
+    <hr color="#023554">
+    <br>
+    <p>Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+    <br>
+    <h2>Introdução ao microcontrolador PIC</h2>
+    <hr color="#023554">
+    <br>
+    <p>Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+    <br>
+    <h2>Introdução ao microcontrolador PIC</h2>
+    <hr color="#023554">
+    <br>
+    <p>Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+  
+    `
+    
+    
+    
+    /* `
     Introdução ao microcontrolador PIC
     <hr color="#023554">
-    `
+    <br>
+    Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:
+
+    <br>
+    <img src="fotos/pic.webp" alt="" width="250px" height="180px">
+    <br>
+    <br>
+
+
+    <ul>
+    <li class="listas"><a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a></li>
+    <li><a href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/"></a>Click aqui para acessar</li>
+    <li><a href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/"></a>Click aqui para acessar</li>
+    </ul>
+
+    ` */ 
     divTitulos.appendChild(elementoTitulo)
+    /*
 
     texto.innerHTML = `Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:` 
     divTextos.appendChild(texto)
@@ -93,10 +154,10 @@ function projeto1(){
 
     links3.innerText = 'click aqui para acessar o artigo 3.......... '
     links3.setAttribute('href', 'https://blog.eletrogate.com/como-gravar-codigo-no-pic-parte-3/')
-/* 
-    divADD.appendChild(links1)
+/*  */
+   /*  divADD.appendChild(links1)
     divADD.appendChild(links2)
-    divADD.appendChild(links3) */
+    divADD.appendChild(links3) 
 
     list1.appendChild(links1)
     list2.appendChild(links2)
@@ -105,14 +166,14 @@ function projeto1(){
     lista.appendChild(list1)
     lista.appendChild(list2)
     lista.appendChild(list3)
-    divADD.appendChild(lista)
+    divADD.appendChild(lista) */
 
 
     //area para adicionar a div dentro da pagina (body)
     campoProjeto.appendChild(divTitulos) 
-    campoProjeto.appendChild(elementoDivisao)
+/*     campoProjeto.appendChild(elementoDivisao)
     campoProjeto.appendChild(divTextos)
-    campoProjeto.appendChild(divADD)
+    campoProjeto.appendChild(divADD) */
     projetos.appendChild(campoProjeto)
 }
 
