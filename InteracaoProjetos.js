@@ -1,16 +1,17 @@
 let projetos = document.getElementById('blocoProjeto')
 let campoProjeto = document.createElement('div')
-
-let divTextos = document.createElement('div')
-divTextos.setAttribute('class', 'textos')
-
-let divADD = document.createElement('div')
-divADD.setAttribute('class', 'adicionais')
-
+let elementoTitulo = document.createElement('h2');//criando um elemento 
 let divTitulos = document.createElement('div')
 divTitulos.setAttribute('class', 'titulos')
+/* let divTextos = document.createElement('div')
+divTextos.setAttribute('class', 'textos') */
 
-let elementoTitulo = document.createElement('h2');//criando um elemento 
+/* let divADD = document.createElement('div')
+divADD.setAttribute('class', 'adicionais')
+
+
+
+
 
 let elementoDivisao = document.createElement('hr')
 elementoDivisao.color = '#023554'
@@ -39,7 +40,7 @@ let lista = document.createElement('ul')
 lista.setAttribute('class', 'listas')
 let list1 = document.createElement('li')
 let list2 = document.createElement('li')
-let list3 = document.createElement('li')
+let list3 = document.createElement('li') */
 
 function criar(idProjeto){
     switch (idProjeto) {
@@ -84,31 +85,31 @@ function projeto1(){
     Em parceria com a loja eletrogate puder ter exedo nesse meu desejo. 
     </p>
     <br>
-    <h3>Introdução ao microcontrolador PIC &#x1F4E0</h3>
-    <hr color="#023554">
-    <br>
-    <p class="textoProjeto">Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
-    <br>
-    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
-    </p>
-    <br>
-    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
-    <br>
-    <h3>Introdução ao microcontrolador PIC &#x1F4E0</h3>
-    <hr color="#023554">
-    <br>
-    <p class="textoProjeto">Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
-    <br>
-    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
-    </p>
-    <br>
-    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
-    <br>
-    
+    <p><strong>Introdução ao microcontrolador PIC &#x1F4E0</strong></p>
    
-  
+    <hr color="#023554">
+    <br>
+    <p class="textoProjeto">Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+    <br>
+    <p>   <strong>Introdução ao microcontrolador PIC &#x1F4E0</strong></p>
+    <hr color="#023554">
+    <br>
+    <p class="textoProjeto">Nesse artigo podemos encontrar a base da teoria atras do componete e a analise do seu datashed 
+    <br>
+    Para acessar ao artigo completo basta apenas clicar aqui :  <a class="linkss" href="https://blog.eletrogate.com/introducao-aos-microcontroladores-pic-parte-1/">Click aqui para acessar</a>
+    </p>
+    <br>
+    <img src="fotos/pic.webp"  align="center" alt="" width="320px" height="180px">
+    <br>
     `
-    
+    divTitulos.appendChild(elementoTitulo) 
+    campoProjeto.appendChild(divTitulos) 
+    projetos.appendChild(campoProjeto)
     
     
     /* `
@@ -130,7 +131,7 @@ function projeto1(){
     </ul>
 
     ` */ 
-    divTitulos.appendChild(elementoTitulo)
+    
     /*
 
     texto.innerHTML = `Graças ao Eletrogater Expert, um sistema disponibilizado pela Loja Eletrogate pude desenvolver e disponibilizar esse projeto de 3 etapas no blog da Loja, <br> nele podemos encontrar um passo a passo para compreender o microcontrolador PIC e ainda  desenvolver o primeiro projeto. Esse artigo foi dividido em 3 partes para melhor compreenção. Link para eles são:` 
@@ -163,73 +164,42 @@ function projeto1(){
 
 
     //area para adicionar a div dentro da pagina (body)
-    campoProjeto.appendChild(divTitulos) 
+   
 /*     campoProjeto.appendChild(elementoDivisao)
     campoProjeto.appendChild(divTextos)
     campoProjeto.appendChild(divADD) */
-    projetos.appendChild(campoProjeto)
+   
 }
 
 
 function projeto2(){
-    elementoTitulo.innerText = 'Em Desenvolvimento'
+    
+    elementoTitulo.innerHTML = `
+    <h2>Em Desenvolvimento</h2>
+    <hr color="#023554">
+    <br>
+    <p class="textoProjeto">Durante meu curso de eletronica pude ter a oportunidade em desenvolver uma material didatico, voltado a introdução ao microcontrolador PIC, 
+    sempre senti dificuldade de encontrar materiais bons e didatico sobre tal tema, portanto decidir desenvolver o meu prorio material.
+    <br>`
     divTitulos.appendChild(elementoTitulo)
-
-    texto.innerText = `lore lorem lorem lre lore lorem lorem lre lore lorem lorem lre lore lorem lorem lre` 
-    divTextos.appendChild(texto)
-
-    //area para adicionar a div dentro da pagina (body)
-    campoProjeto.appendChild(divTitulos) 
-    campoProjeto.appendChild(elementoDivisao)
-    campoProjeto.appendChild(divTextos)
+    campoProjeto.appendChild(divTitulos)
     projetos.appendChild(campoProjeto)
 }
 function projeto3(){
-    elementoTitulo.innerText = 'Projeto javascript start '
+    elementoTitulo.innerHTML = `
+    <h2>Projetos start javascript com typescript</h2>
+    <hr color="#023554">
+    <br>
+    <p class="textoProjeto">Durante meu curso de eletronica pude ter a oportunidade em desenvolver uma material didatico, voltado a introdução ao microcontrolador PIC, 
+    sempre senti dificuldade de encontrar materiais bons e didatico sobre tal tema, portanto decidir desenvolver o meu prorio material.
+    <br>`
     divTitulos.appendChild(elementoTitulo)
-
-    texto.innerText = `Aqui podemos encontrar 5 projetos intermediario que irar ajudar voce treinar e praticar javascript` 
-    divTextos.appendChild(texto)
-
-    //area para adicionar a div dentro da pagina (body)
     campoProjeto.appendChild(divTitulos) 
-    campoProjeto.appendChild(elementoDivisao)
-    campoProjeto.appendChild(divTextos)
     projetos.appendChild(campoProjeto)
 }
 function removerTela(){
+   
     projetos.removeChild(campoProjeto)
-    campoProjeto.removeChild(divADD)
+     campoProjeto.removeChild(divTitulos)
 
 }
-
-
-
-/* const ferramentas = document.getElementById('ff')
-let larguraMaxima = window.innerWidth
-let intervalo
-
-console.log('teste')
-
-const init = () => {
-    ferramentas.forEach(ferramenta => {
-        ferramentas.style.left = -`${ferramentas.offseWidth}`
-    })
-    window.addEventListener('resize', () => {
-        larguraMaxima = window.innerWidth
-    })
-    intervalo = setInterval(move,10)
-}
-const move = () => {
-    ferramentas.forEach(ferramenta => {
-        let pos = parseInt(projeto.style.left) || 0
-        pos += 1
-        if(pos >= larguraMaxima){
-            pos = -920
-        }
-        ferramentas.style.left = `${pos}px`
-    })
-}
-    window.onload=init 
-
- */
