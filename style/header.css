@@ -68,7 +68,7 @@ h1{
       width: 0vh;
     }
     to {
-      width: 42vh;
+      width: 100%;
     }
   }
   @keyframes blink {
